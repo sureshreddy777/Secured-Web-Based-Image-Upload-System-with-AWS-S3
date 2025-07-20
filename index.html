@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Upload</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload Your Photo</h1>
+        <p class="instructions">Only .JPG, .PNG and .JPEG files are allowed.</p>
+        <label for="file-input">Choose Photo</label>
+        <input type="file" id="file-input" accept=".jpg, .jpeg, .png" />
+        <button id="upload-button">Upload</button>
+        <div id="preview" class="preview"></div>
+        <div id="status"></div>
+        <div id="loading-spinner" style="display:none;">
+            Uploading to your bucket... <span id="upload-percentage">0%</span>
+        </div>
+        
+    </div>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1234.0.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
