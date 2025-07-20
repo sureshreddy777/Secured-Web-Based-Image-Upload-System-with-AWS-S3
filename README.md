@@ -83,11 +83,3 @@ This project uses client-side credentials for demonstration only. Do not expose 
 * Drag-and-drop UI
 
 ---
-
-## 📜 License
-
-This project is licensed under the MIT License.
-
----
-
-Let me know if you want me to generate this as a downloadable README.md or add a GitHub Actions deployment suggestion.
